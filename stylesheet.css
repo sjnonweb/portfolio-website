@@ -1,0 +1,36 @@
+body {
+	position: relative;
+	background-color: gray;
+}
+
+#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+#section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+
+.navbar {
+	//background-color: green;
+	//color: white;
+}
+
+#myNavbar{
+	float: right;
+}
+#content-bar2 {	
+	 width: 90%;
+	 margin-left: auto;
+	 margin-right: auto;
+}
+ 
+.intro-text p {
+	font-family: havletica;
+	font-size: 25px;
+	float: left;
+} 
+
+.intro-img {
+	float: right;
+	height: 100px;
+	width: 200px;
+	border: 1px solid black;
+	border-radius: 100%;
+}
