@@ -29,7 +29,7 @@ body {
 
 .intro-img {
 	float: right;
-	height: 100px;
+	//height: 100px;
 	width: 200px;
 	border: 1px solid black;
 	border-radius: 100%;
