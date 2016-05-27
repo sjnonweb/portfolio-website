@@ -1,11 +1,11 @@
 body {
 	position: relative;
-	background-color: gray;
+	background-color: red;
 }
 
-#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+#section1 {padding-top:50px;height:300px;color: #fff; background-color: #1E88E5;}
 #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
-#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+#section3 {padding-top:50px;height:200px;color: #fff; background-color: #ff9800;}
 
 .navbar {
 	//background-color: green;
@@ -25,12 +25,19 @@ body {
 	font-family: havletica;
 	font-size: 25px;
 	float: left;
+	width: 500px;
+	margin-top: 10px;
+	position: relative;
 } 
-
+hr {
+	clear: both;
+}
 .intro-img {
 	float: right;
-	height: 100px;
+	//height: 100px;
 	width: 200px;
-	border: 1px solid black;
-	border-radius: 100%;
+	border: 3px solid purple;
+	//border-radius: 100%;
+	position: relative;
+	margin-top: 10px;
 }
