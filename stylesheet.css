@@ -13,11 +13,27 @@ body {
 #myNavbar{
 	float: right;
 }
-#content-bar2 {	
+
+@media screen and (max-width: 600px;) {
+	 #content-bar2 {
+		 width:100%;
+	 }
+ }
+
+
+@media screen and (min-width: 601px;) {
+	 #content-bar2 {
+		 width:80%;
+		 margin-left: auto;
+		 margin-right: auto;
+	 }
+ } 
+
+/*#content-bar2 {	
 	 width: 80%;
 	 margin-left: auto;
 	 margin-right: auto;
-}
+}*/
  
 .intro-text p {
 	font-family: havletica;
